@@ -58,6 +58,8 @@ const Details = () => {
           </div>
         </div>
         <button className="hover:bg-opacity-100 bg-red-500 bg-opacity-80 duration-700 p-2 rounded-xl">Block user</button>
+        <button className="hover:bg-opacity-100 bg-blue-500 bg-opacity-80 duration-700 p-2 rounded-xl">Log out</button>
+
       </div>
     </div>
   );
