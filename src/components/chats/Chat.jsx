@@ -46,7 +46,7 @@ const Chat = () => {
               eveniet rerum possimus omnis nemo placeat animi. Ut, vero.
               Numquam, omnis exercitationem!
             </p>
-            <span>1 min ago</span>
+            <span className="opacity-40 text-sm mt-4">1 min ago</span>
           </div>
         </div>
         <div className="self-end max-w-[70%]">
@@ -57,7 +57,7 @@ const Chat = () => {
               eveniet rerum possimus omnis nemo placeat animi. Ut, vero.
               Numquam, omnis exercitationem!
             </p>
-            <span>1 min ago</span>
+            <span className="opacity-40 text-sm mt-4">1 min ago</span>
           </div>
         </div>
         <div className="p-4 flex gap-2 max-w-[70%]">
@@ -69,7 +69,7 @@ const Chat = () => {
               eveniet rerum possimus omnis nemo placeat animi. Ut, vero.
               Numquam, omnis exercitationem!
             </p>
-            <span>1 min ago</span>
+            <span className="opacity-40 text-sm mt-4">1 min ago</span>
           </div>
         </div>
         <div className="self-end max-w-[70%]">
@@ -81,7 +81,7 @@ const Chat = () => {
               eveniet rerum possimus omnis nemo placeat animi. Ut, vero.
               Numquam, omnis exercitationem!
             </p>
-            <span>1 min ago</span>
+            <span className="opacity-40 text-sm mt-4">1 min ago</span>
           </div>
         </div>
       </div>
