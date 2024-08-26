@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import EmojiPicker from "emoji-picker-react";
 
 const Chat = () => {
@@ -11,7 +11,12 @@ const Chat = () => {
   const hndleEmoji = (e) => {
     setText((prev) => prev + e.emoji);
   };
-  console.log(text);
+
+  const endRef = useRef(null)
+
+  useEffect(() => {
+    endRef.current?.scrollIntoView({behavior:"smooth"})
+  },[])
 
   return (
     <div className="flex-2 flex flex-col border-white/30 border-l border-r">
@@ -36,7 +41,7 @@ const Chat = () => {
         </div>
         <div></div>
       </div>
-      <div className="flex-1 flex flex-col gap-8 overflow-y-scroll">
+      <div className="flex-1 flex flex-col gap-8 overflow-y-scroll scrollbar-hidden">
         <div className="p-4 flex gap-2 max-w-[70%]">
           <img src="./avatar.png" alt="" className="size-8 rounded-xl" />
           <div>
@@ -84,6 +89,7 @@ const Chat = () => {
             <span className="opacity-40 text-sm mt-4">1 min ago</span>
           </div>
         </div>
+        <div ref={endRef}></div>
       </div>
       <div>
         <div className="flex gap-2 items-center p-4 border-t border-white/30 justify-between">

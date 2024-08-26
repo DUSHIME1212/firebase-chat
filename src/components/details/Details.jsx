@@ -8,7 +8,7 @@ const Details = () => {
     },
   ];
   return (
-    <div className="flex-1 flex gap-4 flex-col overflow-y-scroll">
+    <div className="flex-1 flex gap-4 flex-col overflow-y-scroll scrollbar-hidden">
       <div className="flex flex-col gap-4 p-8 text-center items-center">
         <img src="./avatar.png" className="size-24  rounded-xl" alt="" />
         <h2 className="w-full text-3xl">John doe</h2>
@@ -17,7 +17,7 @@ const Details = () => {
       <div className="flex border border-white/30 flex-col gap-4 p-4">
         <div>
           <div className="flex justify-between items-center">
-            <span>Privancy % help</span>
+            <span>Privancy & help</span>
             <img src="./arrowUp.png" className="size-6 bg-blue-900/60 rounded-lg p-2" alt="" />
           </div>
         </div>
@@ -57,7 +57,7 @@ const Details = () => {
             <img src="./arrowUp.png" className="size-6 bg-blue-900/60 rounded-lg p-2" alt="" />
           </div>
         </div>
-        <button className="bg-red-500 p-2 rounded-xl">Block user</button>
+        <button className="hover:bg-opacity-100 bg-red-500 bg-opacity-80 duration-700 p-2 rounded-xl">Block user</button>
       </div>
     </div>
   );

@@ -12,3 +12,12 @@
 body{
   background-image: url('../bg.jpg');
 }
+
+.scrollbar-hidden {
+  overflow: -moz-scrollbars-none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}

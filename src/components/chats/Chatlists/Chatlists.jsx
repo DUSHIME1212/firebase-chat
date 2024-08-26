@@ -25,28 +25,28 @@ const Chatlists = () => {
       </div>
       <div className="flex flex-col h-[490px]">
         <div className="flex gap-4 items-center border-b border-white/30 p-4">
-          <img src="./avatar.png" className="size-16" alt="" />
+          <img src="./avatar.png" className="size-8 rounded-xl" alt="" />
           <div>
             <span>Jane doe</span>
             <p>Hello world</p>
           </div>
         </div>
         <div className="flex gap-4 items-center border-b border-white/30 p-4">
-          <img src="./avatar.png" className="size-16" alt="" />
+          <img src="./avatar.png" className="size-8 rounded-xl" alt="" />
           <div>
             <span>Jane doe</span>
             <p>Hello world</p>
           </div>
         </div>
         <div className="flex gap-4 items-center border-b border-white/30 p-4">
-          <img src="./avatar.png" className="size-16" alt="" />
+          <img src="./avatar.png" className="size-8 rounded-xl" alt="" />
           <div>
             <span>Jane doe</span>
             <p>Hello world</p>
           </div>
         </div>
         <div className="flex gap-4 items-center border-b border-white/30 p-4">
-          <img src="./avatar.png" className="size-16" alt="" />
+          <img src="./avatar.png" className="size-8 rounded-xl" alt="" />
           <div>
             <span>Jane doe</span>
             <p>Hello world</p>
