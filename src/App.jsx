@@ -2,6 +2,7 @@ import Chat from "./components/chats/Chat";
 import Details from "./components/details/Details";
 import List from "./components/list/List";
 import LogIn from "./components/LogIn";
+import Notification from "./components/Notofications/Notification";
 
 export default function App() {
   const user = false;
@@ -18,6 +19,7 @@ export default function App() {
           <LogIn />
         )}
       </div>
+      <Notification/>
     </h1>
   );
 }
