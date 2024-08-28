@@ -7,12 +7,12 @@ const AddUser = () => {
             <input type="text" placeholder='Username' className='p-2 rounded-xl outline-none' name='Username' />
             <button className='p-2 bg-blue-500 rounded-xl px-4'>search</button>
         </form>
-        <div>
+        <div className='flex items-center justify-between'>
             <div className='flex gap-4 items-center p-4'>
                 <img src="./avatar.png" className='size-16 rounded-xl' alt="" />
                 <h2>Username</h2>
             </div>
-            <button className='p-2 bg-blue-500 rounded-xl px-4'>Add user</button>
+            <button className='p-2 size-fit bg-blue-500 rounded-xl px-4'>Add user</button>
         </div>
     </div>
   )
